@@ -1,0 +1,149 @@
+[
+  {
+      "id": 1,
+      "nombre": "Campera naranja",
+      "categoria": "hombre",
+      "precio": 13340,
+      "img": "./imagen/hombre1.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Campera Azul",
+      "categoria": "hombre",
+      "precio": 21940,
+      "img": "./imagen/hombre2.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Campera bordo",
+      "categoria": "hombre",
+      "precio": 6800,
+      "img": "./imagen/hombre3.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Campera negra",
+      "categoria": "hombre",
+      "precio": 15650,
+      "img": "./imagen/hombre4.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Campera marron claro",
+      "categoria": "hombre",
+      "precio": 5000,
+      "img": "./imagen/hombr5.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Campera con cierre",
+      "categoria": "mujer",
+      "precio": 6500,
+      "img": "./imagen/mujer1.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Campera con capucha",
+      "categoria": "mujer",
+      "precio": 8500,
+      "img": "./imagen/mujer2.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Campera con corderoy",
+      "categoria": "mujer",
+      "precio": 8000,
+      "img": "./imagen/mujer3.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Campera camuflada",
+      "categoria": "mujer",
+      "precio": 14000,
+      "img": "./imagen/mujer4.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Campera azul oscuro",
+      "categoria": "mujer",
+      "precio": 7000,
+      "img": "./imagen/mujer5.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Campera blanca",
+      "categoria": "mujer",
+      "precio": 8000,
+      "img": "./imagen/mujer6.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Conjunto de sky",
+      "categoria": "niño",
+      "precio": 40000,
+      "img": "./imagen/niño1.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Campera amarilla",
+      "categoria": "niño",
+      "precio": 4000,
+      "img": "./imagen/niño2.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Campera de sky camuflada",
+      "categoria": "niño",
+      "precio": 13010,
+      "img": "./imagen/niño3.jpg"
+    },
+    {
+      "id": 15,
+      "nombre": "Campera de invierno",
+      "categoria": "niño",
+      "precio": 4000,
+      "img": "./imagen/niño4.jpg"
+    },
+    {
+      "id": 16,
+      "nombre": "Campera reversible",
+      "categoria": "niño",
+      "precio": 12000,
+      "img": "./imagen/niño5.jpg"
+    },
+    {
+      "id": 17,
+      "nombre": "Camperita liviana",
+      "categoria": "niña",
+      "precio": 6000,
+      "img": "./imagen/niña1.jpg"
+    },
+    {
+      "id": 18,
+      "nombre": "Campera camuflada",
+      "categoria": "niña",
+      "precio": 9000,
+      "img": "./imagen/niña2.jpg"
+    },
+    {
+      "id": 19,
+      "nombre": "Campera camuflada sky",
+      "categoria": "niña",
+      "precio": 10000,
+      "img": "./imagen/niña3.jpg"
+    },
+    {
+      "id": 20,
+      "nombre": "Campera con corderoy verde",
+      "categoria": "niña",
+      "precio": 4000,
+      "img": "./imagen/niño4.jpg"
+    },
+    {
+      "id": 21,
+      "nombre": "Campera con corderoy blanco",
+      "categoria": "niña",
+      "precio": 8000,
+      "img": "./imagen/niña5.jpg"
+    }
+  ]

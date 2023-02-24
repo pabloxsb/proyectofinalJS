@@ -1,0 +1,393 @@
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  pad: 2%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imagen/logo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+}
+
+.logo img {
+  transition: all 0.25s;
+}
+
+.logo img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  padding: 2%;
+  background: linear-gradient(
+    to right,
+    #0350b4 0%,
+    24.8812347651%,
+    #00d70b 49.7624695301%,
+    74.8812347651%,
+    #f5f3f3 100%
+  );
+  display: flex;
+  font-size: 1rem;
+  text-align: left;
+  bottom: 0.4rem;
+  padding: 1rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.navbar {
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenedor {
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+
+.tarjeta-body {
+  width: 270px;
+}
+
+.card {
+  width: 250px;
+  transition: all 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-img img {
+  width: 230px;
+  height: 270px;
+}
+
+.card h5 {
+  padding-left: 10px;
+}
+
+.card-text {
+  margin-left: 10px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 2%;
+  margin-bottom: 5px;
+}
+
+.precio {
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  height: 35px;
+  font-size: 15px;
+}
+
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-lg-12 {
+  margin-top: 10px;
+}
+
+#icono-carro {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart-total {
+  width: 20px;
+  height: 25px;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.totalh5 {
+  margin: 5px;
+}
+
+.form-field {
+  width: 200px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.cart-row {
+  display: flex;
+  align-items: flex-stretch;
+  padding-bottom: 10px;
+  margin: 10px;
+  border-bottom: 1px solid #ececec;
+}
+
+.row-image {
+  width: 60px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.cart-p {
+  margin-top: 12px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.quantity {
+  display: inline-block;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.chg-quantity {
+  width: 14px;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+  transition: 0.1s;
+}
+
+.chg-quantity:hover {
+  opacity: 0.6;
+}
+
+.chg-quantity-2 {
+  width: 14px;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+  transition: 0.1s;
+}
+
+.chg-quantity-2:hover {
+  opacity: 0.6;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 250px;
+  padding-bottom: 40px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* punto de quiebre */
+
+@media screen and (max-width: 1025px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  }
+  .thumbnail {
+    width: 100%;
+    height: 180px;
+  }
+  .logo img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    margin-left: 30px;
+  }
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .modal-content {
+    width: 90%;
+  }
+  .row-image {
+    width: 50px;
+  }
+  .cart-p {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .quantity {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .tabla {
+    font-size: 15px;
+  }
+  #seguirComprando {
+    font-size: 15px;
+    padding: 5px;
+  }
+  #clear {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .totalh5 {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .logo img {
+    width: 160px;
+    height: 160px;
+  }
+  .logo img:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    margin-left: 60px;
+  }
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .modal-content {
+    width: 90%;
+  }
+  .logo img {
+    width: 120px;
+    height: 120px;
+  }
+  .logo img:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    margin-left: 25px;
+  }
+  .card {
+    transition: all 0s;
+  }
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .logo img:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .modal-content {
+    width: 95%;
+  }
+  .logo img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 7px;
+  }
+  .card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .logo img:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  .modal-content {
+    width: 100%;
+  }
+  .logo img {
+    width: 80px;
+    height: 80px;
+  }
+}
